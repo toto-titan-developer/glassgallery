@@ -1,0 +1,87 @@
+* {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin: 0;
+}
+
+.nav_banner {
+  display: flex;
+  background-image: url(./images/Template_banner_hrz.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 10vh;
+  width: 100%;
+}
+.side_banner {
+  position: absolute;
+  background-image: url(./images/Template_banner_vrt.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  top: 10vh;
+  height: 90vh;
+  width: 100px;
+  z-index: 5;
+}
+.about_tag {
+  display: block;
+  text-decoration: none;
+  color: black;
+  height: 20px;
+  margin-top: 30px;
+  margin-right: 20px;
+  padding: 5px;
+  background-color: azure;
+  border: 2px solid grey;
+  border-radius: 5px;
+  transition: opacity 0.2s;
+}
+.about_tag:hover {
+  opacity: 0.6;
+}
+.profile_pic {
+  box-sizing: border-box;
+  height: 10vh;
+  width: auto;
+  border: 5px double rgba(0, 0, 0, 0.2);
+  border-radius: 100px;
+}
+
+.search_container {
+  display: flex;
+  background-color: burlywood;
+  padding: 10px 0px 10px 200px;
+}
+.search_container input {
+  width: 400px;
+  padding: 5px 0 5px 5px;
+}
+.search_btn {
+  margin-left: 10px;
+  padding: 0 5px;
+  background-color: azure;
+  border: 2px solid grey;
+  border-radius: 5px;
+  transition: opacity 0.2s;
+  font-size: 1em;
+}
+.search_btn:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.search_filter {
+  display: inline-block;
+  margin-left: 200px;
+  padding: 5px 0;
+}
+
+.gallery_container {
+  overflow-y: scroll;
+  margin-left: 100px;
+  height: 75vh;
+}
+
+footer {
+  background-color: black;
+  height: 150px;
+}
