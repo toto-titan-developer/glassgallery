@@ -1,11 +1,10 @@
 * {
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   margin: 0;
 }
 body {
   box-sizing: border-box;
   height: 100vh;
-  background-image: url("./images/placholder_bg.png");
+  background-image: url("./images/BG1.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -13,7 +12,7 @@ body {
 
 .nav_banner {
   display: flex;
-  background-image: url(./images/Template_banner_hrz.png);
+  background-image: url(./images/Banner_hrz_X4.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -22,7 +21,7 @@ body {
 }
 .side_banner {
   position: absolute;
-  background-image: url(./images/Template_banner_vrt.png);
+  background-image: url(./images/Banner_vrt_X4.png);
   background-size: cover;
   background-repeat: no-repeat;
   top: 10vh;
@@ -92,14 +91,28 @@ body {
 .gallery_container {
   box-sizing: border-box;
   display: grid;
-  grid-template-columns: 300px 300px;
-  background-color: rgba(245, 245, 245, 0.7);
-  gap: 15vh 15vw;
+  grid-template-columns: 300px 300px 300px;
+  background-color: rgba(245, 245, 245, 0.9);
+  gap: 10vh 10vw;
   justify-content: center;
   overflow-y: scroll;
   margin-left: 100px;
   height: 75vh;
   border: 2px solid rgb(255, 255, 255);
+}
+.glass_object {
+  box-sizing: border-box;
+  border: 5px solid black;
+  transition: border-color 1s;
+}
+.glass_object:hover {
+  border-color: rgba(240, 248, 255, 0.5);
+  cursor: pointer;
+}
+.glass_info {
+  padding: 5px;
+  background-color: black;
+  color: aliceblue;
 }
 .about_container {
   box-sizing: border-box;
@@ -114,7 +127,6 @@ body {
   margin: 0 auto;
   padding-top: 25vh;
   width: 50vw;
-  
 }
 
 .glass_footer {
