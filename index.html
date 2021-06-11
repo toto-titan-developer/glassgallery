@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Glass Gallery</title>
     <link rel="stylesheet" href="style.css">
+    <link href="jquery.easy_slides.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" ></script>
+    <script src="./jquery.easy_slides.js" ></script>
     <script src="script.js" async></script>
 </head>
 <body>
@@ -36,5 +39,15 @@
     <footer class="glass_footer">
 
     </footer>  
+
+    <!-- Pop Up Window -->
+    <section id="popUp_window" class="popUp_window">
+        <div class="slider slider_one_big_picture">
+            <div class="exit_button" onclick="ClosePopUp()">X</div>
+            <div class="next_button"></div>
+            <div class="prev_button"></div>
+            <div class="nav_indicators"></div>
+        </div>   
+    </section>
 </body>
 </html>

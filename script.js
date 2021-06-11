@@ -1,10 +1,17 @@
+$('.slider_one_big_picture').EasySlides();
+
+// NOTE**** Each subImgs array must contant minimum 2 values
 const database = [
     {
         name: "Hanging Lantern Green",
         type: "Candle Holder",
         mainImg: "./images/glass/GlassLantern1.png",
         subImgs: [
-            "GlassLantern1_grn.png"
+            "./images/glass/GlassLantern1_grn.png",
+            "./images/glass/GlassLantern1_grn.png",
+            "./images/glass/GlassLantern1_grn.png",
+            "./images/glass/GlassLantern1_grn.png",
+            "./images/glass/GlassLantern1_grn.png",
         ],
 
     },
@@ -13,7 +20,9 @@ const database = [
         type: "Candle Holder",
         mainImg: "./images/glass/GlassLantern2.png",
         subImgs: [
-            "GlassLantern2_red.png"
+            "./images/glass/GlassLantern2_red.png",
+            "./images/glass/GlassLantern2_red.png"
+
         ],
 
     },
@@ -22,16 +31,18 @@ const database = [
         type: "Candle Holder",
         mainImg: "./images/glass/GlassLantern3_cube.png",
         subImgs: [
-            "GlassLantern2_red.png"
+            "./images/glass/GlassLantern2_red.png",
+            "./images/glass/GlassLantern2_red.png"
         ],
 
     },
     {
-        name: "Green & Blue Reflector",
+        name: "Green and Blue Reflector",
         type: "Center Piece",
         mainImg: "./images/glass/CenterPieceCandle.png",
         subImgs: [
-            "GlassLantern1_grn.png"
+            "./images/glass/GlassLantern2_red.png",
+            "./images/glass/GlassLantern2_red.png"
         ],
 
     },
@@ -40,7 +51,8 @@ const database = [
         type: "Center Piece",
         mainImg: "./images/glass/CenterPieceCandle2.png",
         subImgs: [
-            "GlassLantern1_grn.png"
+            "./images/glass/GlassLantern2_red.png",
+            "./images/glass/GlassLantern2_red.png"
         ],
 
     },
@@ -49,7 +61,8 @@ const database = [
         type: "Center Piece",
         mainImg: "./images/glass/CenterPieceCandle3.png",
         subImgs: [
-            "GlassLantern1_grn.png"
+            "./images/glass/GlassLantern2_red.png",
+            "./images/glass/GlassLantern2_red.png"
         ],
 
     },
@@ -58,7 +71,8 @@ const database = [
         type: "Center Piece",
         mainImg: "./images/glass/CenterPieceCandle4.png",
         subImgs: [
-            "GlassLantern1_grn.png"
+            "./images/glass/GlassLantern2_red.png",
+            "./images/glass/GlassLantern2_red.png"
         ],
 
     },
@@ -67,7 +81,8 @@ const database = [
         type: "Center Piece",
         mainImg: "./images/glass/CenterPieceCandle5.png",
         subImgs: [
-            "GlassLantern1_grn.png"
+            "./images/glass/GlassLantern2_red.png",
+            "./images/glass/GlassLantern2_red.png"
         ],
 
     },
@@ -76,7 +91,8 @@ const database = [
         type: "Jewlery Box",
         mainImg: "./images/glass/JewleryBox1.png",
         subImgs: [
-            "GlassLantern1_grn.png"
+            "./images/glass/GlassLantern2_red.png",
+            "./images/glass/GlassLantern2_red.png"
         ],
 
     },
@@ -85,7 +101,8 @@ const database = [
         type: "Jewlery Box",
         mainImg: "./images/glass/JewleryBox2.png",
         subImgs: [
-            "GlassLantern1_grn.png"
+            "./images/glass/GlassLantern2_red.png",
+            "./images/glass/GlassLantern2_red.png"
         ],
 
     },
@@ -94,7 +111,8 @@ const database = [
         type: "Jewlery Box",
         mainImg: "./images/glass/JewleryBox3.png",
         subImgs: [
-            "GlassLantern1_grn.png"
+            "./images/glass/GlassLantern2_red.png",
+            "./images/glass/GlassLantern2_red.png"
         ],
 
     },
@@ -103,7 +121,8 @@ const database = [
         type: "Jewlery Box",
         mainImg: "./images/glass/JewleryBox4.png",
         subImgs: [
-            "GlassLantern1_grn.png"
+            "./images/glass/GlassLantern2_red.png",
+            "./images/glass/GlassLantern2_red.png"
         ],
 
     },
@@ -112,7 +131,8 @@ const database = [
         type: "Suncatcher",
         mainImg: "./images/glass/Suncatcher1.png",
         subImgs: [
-            "GlassLantern1_grn.png"
+            "./images/glass/GlassLantern2_red.png",
+            "./images/glass/GlassLantern2_red.png"
         ],
 
     },
@@ -121,7 +141,8 @@ const database = [
         type: "Suncatcher",
         mainImg: "./images/glass/Suncatcher2.png",
         subImgs: [
-            "GlassLantern1_grn.png"
+            "./images/glass/GlassLantern2_red.png",
+            "./images/glass/GlassLantern2_red.png"
         ],
 
     },
@@ -130,7 +151,8 @@ const database = [
         type: "Suncatcher",
         mainImg: "./images/glass/Suncatcher3.png",
         subImgs: [
-            "GlassLantern1_grn.png"
+            "./images/glass/GlassLantern2_red.png",
+            "./images/glass/GlassLantern2_red.png"
         ],
 
     },
@@ -139,7 +161,8 @@ const database = [
         type: "Suncatcher",
         mainImg: "./images/glass/Suncatcher4.png",
         subImgs: [
-            "GlassLantern1_grn.png"
+            "./images/glass/GlassLantern2_red.png",
+            "./images/glass/GlassLantern2_red.png"
         ],
 
     },
@@ -149,6 +172,8 @@ const database = [
 
 
 const galleryContainer = document.querySelector(".gallery_container");
+const popUpWindow = document.getElementById("popUp_window");
+const sliderContainer= document.querySelector(".slider");
 
 for (let i = 0; i < database.length; i++){
     let obj = database[i];
@@ -165,15 +190,40 @@ for (let i = 0; i < database.length; i++){
     newDiv.innerHTML = content;
     galleryContainer.appendChild(newDiv);
 };
-// FOLLOW THIS
+// Opening Pop Up Window
 document.querySelectorAll(".glass_object").forEach((obj) => {
     obj.addEventListener("click", () => {
         console.log("Name :", obj.childNodes[3].children[0].innerHTML);
-        console.log("Type :", obj.childNodes[3].children[1].innerHTML)
+        console.log("Type :", obj.childNodes[3].children[1].innerHTML);
+        let dataObject = null;
+        for(let i = 0; i < database.length; i++){
+            if(obj.childNodes[3].children[0].innerHTML === database[i].name){
+                dataObject = database[i];
+                // console.log("My Object is : ", dataObject);
+                break;
+            }
+        }
+        let images = dataObject["subImgs"].map(arr => arr);
+        images.unshift(dataObject["mainImg"]);
+        console.log(images);
+        for(let i = 0; i< images.length; i++){
+            let newImg = document.createElement("IMG");
+            newImg.classList.add("glass_img");
+            newImg.setAttribute("src", images[i]);
+            newImg.setAttribute("alt", "Glass Art Piece");
+            sliderContainer.appendChild(newImg);
+        }
+
+        $('.slider_one_big_picture').EasySlides();
+        popUpWindow.style.display = "flex";
     })
 })
 
+function ClosePopUp() {
+    popUpWindow.style.display = "none";
+    let glassItems = document.querySelectorAll(".glass_img");
+    for(let i = 0; i< glassItems.length; i++){
+        sliderContainer.removeChild(glassItems[i]);       
+    }
 
-function testFunction() {
-    alert("this worked");
 }
