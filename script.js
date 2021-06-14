@@ -190,6 +190,8 @@ for (let i = 0; i < database.length; i++){
     newDiv.innerHTML = content;
     galleryContainer.appendChild(newDiv);
 };
+
+
 // Opening Pop Up Window
 document.querySelectorAll(".glass_object").forEach((obj) => {
     obj.addEventListener("click", () => {
@@ -218,7 +220,7 @@ document.querySelectorAll(".glass_object").forEach((obj) => {
         popUpWindow.style.display = "flex";
     })
 })
-
+// Closing Pop Up
 function ClosePopUp() {
     popUpWindow.style.display = "none";
     let glassItems = document.querySelectorAll(".glass_img");
@@ -227,3 +229,7 @@ function ClosePopUp() {
     }
 
 }
+
+
+// Search Functions
+

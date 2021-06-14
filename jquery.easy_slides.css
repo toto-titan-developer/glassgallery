@@ -3,8 +3,8 @@
 .slider_one_big_picture {
   position: relative;
   user-select: none;
-  width: 600px;
-  height: 600px;
+  width: 750px;
+  height: 750px;
 }
 
 .slider_one_big_picture > * {

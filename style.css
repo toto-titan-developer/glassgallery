@@ -4,7 +4,7 @@
 body {
   box-sizing: border-box;
   height: 100vh;
-  background-image: url("./images/BG1.png");
+  background-image: url("./images/Banner_hrz2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -12,19 +12,23 @@ body {
 
 .nav_banner {
   display: flex;
-  background-image: url(./images/Banner_hrz_X4.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  background-color: rgb(59, 59, 59);
   height: 10vh;
   width: 100%;
 }
 .side_banner {
   position: absolute;
-  background-image: url(./images/Banner_vrt_X4.png);
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: rgb(59, 59, 59);
   top: 10vh;
+  height: 90vh;
+  width: 100px;
+  z-index: 5;
+}
+.side_banner_right {
+  position: absolute;
+  background-color: rgb(59, 59, 59);
+  top: 10vh;
+  right: 0;
   height: 90vh;
   width: 100px;
   z-index: 5;
@@ -32,10 +36,13 @@ body {
 .about_tag {
   display: block;
   text-decoration: none;
+  text-align: center;
   color: black;
   height: 20px;
+  width: 125px;
   margin-top: 30px;
   margin-right: 20px;
+  margin-left: 10px;
   padding: 5px;
   background-color: azure;
   border: 2px solid grey;
@@ -48,14 +55,18 @@ body {
 .profile_pic {
   box-sizing: border-box;
   height: 10vh;
+  margin: 0 auto;
   width: auto;
-  border: 5px double rgba(0, 0, 0, 0.2);
-  border-radius: 100px;
+  border-radius: 50%;
+}
+.logo_pic_head {
+  margin: 0 auto;
+  height: 10vh;
 }
 
 .search_container {
   display: flex;
-  background-color: burlywood;
+  background-color: rgb(135, 176, 222);
   padding-left: 200px;
   min-height: 25px;
   align-items: center;
@@ -63,13 +74,23 @@ body {
   /* padding: 10px 0px 10px 200px; */
 }
 .search_container input {
-  width: 400px;
+  width: 250px;
   box-sizing: border-box;
-  height: 20px;
+  height: 25px;
   padding: 5px 0 5px 5px;
+  border: 2px solid grey;
+  border-radius: 5px;
+  background-color: azure;
+  color: #000;
 }
-.search_btn {
-  margin-left: 10px;
+.search_container label {
+  font-weight: 900;
+  color: white;
+}
+.search_btn,
+.clear_button {
+  margin: 0 15px;
+  height: 25px;
   padding: 0 5px;
   background-color: azure;
   border: 2px solid grey;
@@ -77,28 +98,30 @@ body {
   transition: opacity 0.2s;
   font-size: 1em;
 }
-.search_btn:hover {
+.search_btn:hover,
+.clear_button:hover {
   cursor: pointer;
   opacity: 0.6;
 }
 
 .search_filter {
-  display: inline-block;
-  margin-left: 200px;
-  padding: 5px 0;
+  height: 25px;
+  border: 2px solid grey;
+  border-radius: 5px;
+  background-color: azure;
 }
 
 .gallery_container {
   box-sizing: border-box;
   display: grid;
   grid-template-columns: 300px 300px 300px;
-  background-color: rgba(245, 245, 245, 0.9);
+  background-color: rgba(158, 158, 158, 0.9);
   gap: 10vh 10vw;
   justify-content: center;
   overflow-y: scroll;
-  margin-left: 100px;
-  height: 75vh;
-  border: 2px solid rgb(255, 255, 255);
+  margin: 0 100px;
+  height: 85vh;
+  border: 2px solid rgb(124, 124, 124);
 }
 .glass_object {
   box-sizing: border-box;
@@ -118,9 +141,8 @@ body {
   box-sizing: border-box;
   text-align: center;
   background-color: rgba(245, 245, 245, 0.9);
-  overflow-y: scroll;
-  margin-left: 100px;
-  height: 75vh;
+  margin: 0 100px;
+  height: 90vh;
   border: 2px solid rgb(255, 255, 255);
 }
 .about_text {
@@ -130,12 +152,18 @@ body {
 }
 
 .glass_footer {
-  background-color: rgba(0, 0, 0, 0.6);
-  height: 10vh;
+  background-color: rgb(135, 176, 222);
+  height: 300px;
 }
 .about_footer {
-  background-color: rgba(0, 0, 0, 0.6);
-  height: 15vh;
+  background-color: rgb(135, 176, 222);
+  height: 300px;
+}
+.logo_pic_footer {
+  height: 250px;
+  margin-top: 25px;
+  margin-left: 20px;
+  box-shadow: 5px 6px 10px 7.5px rgba(75, 75, 75, 0.5);
 }
 
 /* Pop Up Window */
