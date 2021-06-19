@@ -14,6 +14,7 @@ body {
   display: flex;
   background-color: rgb(59, 59, 59);
   height: 10vh;
+  min-height: 75px;
   width: 100%;
 }
 .side_banner {
@@ -35,12 +36,13 @@ body {
 }
 .about_tag {
   display: block;
+  z-index: 5000;
   text-decoration: none;
   text-align: center;
   color: black;
   height: 20px;
   width: 125px;
-  margin-top: 30px;
+  /* margin-top: 30px; */
   margin-right: 20px;
   margin-left: 10px;
   padding: 5px;
@@ -55,12 +57,14 @@ body {
 .profile_pic {
   box-sizing: border-box;
   height: 10vh;
+  min-height: 75px;
   margin: 0 auto;
   width: auto;
   border-radius: 50%;
 }
 .logo_pic_head {
   margin: 0 auto;
+  min-height: 75px;
   height: 10vh;
 }
 
@@ -71,37 +75,10 @@ body {
   min-height: 25px;
   align-items: center;
   height: 5vh;
-  /* padding: 10px 0px 10px 200px; */
-}
-.search_container input {
-  width: 250px;
-  box-sizing: border-box;
-  height: 25px;
-  padding: 5px 0 5px 5px;
-  border: 2px solid grey;
-  border-radius: 5px;
-  background-color: azure;
-  color: #000;
 }
 .search_container label {
   font-weight: 900;
   color: white;
-}
-.search_btn,
-.clear_button {
-  margin: 0 15px;
-  height: 25px;
-  padding: 0 5px;
-  background-color: azure;
-  border: 2px solid grey;
-  border-radius: 5px;
-  transition: opacity 0.2s;
-  font-size: 1em;
-}
-.search_btn:hover,
-.clear_button:hover {
-  cursor: pointer;
-  opacity: 0.6;
 }
 
 .search_filter {
@@ -127,6 +104,7 @@ body {
   box-sizing: border-box;
   border: 5px solid black;
   transition: border-color 1s;
+  height: 354px;
 }
 .glass_object:hover {
   border-color: rgba(240, 248, 255, 0.5);
@@ -172,7 +150,7 @@ body {
 }
 .popUp_window {
   position: fixed;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.85);
   top: 0;
   left: 0;
   width: 100vw;

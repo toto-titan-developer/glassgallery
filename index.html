@@ -26,8 +26,8 @@
             <button id="search_btn" class="search_btn" type="submmit">Search</button>
             <button id="clear_button" class="clear_button">Clear</button> -->
             <label for="search_filter">Filter</label>
-            <select name="search_filter" id="search_filter" class="search_filter" >
-                <option value="None">None</option>
+            <select name="search_filter" id="search_filter" class="search_filter" onchange="FilterChange()">
+                <option value="All">All Art</option>
                 <option value="Candle Holder">Candle Holder</option>
                 <option value="Center Piece">Center Piece</option>
                 <option value="Jewlery Box">Jewlery Box</option>
@@ -52,6 +52,28 @@
     </section>
     <footer class="glass_footer">
         <img class="logo_pic_footer" src="./images/Logo_LC_footer.PNG" alt="Logo Lemur Creations">
+        <div>
+            <form name="contact" method="POST" data-netlify="true">
+                <p>
+                  <label>Your Name: <input type="text" name="name" /></label>   
+                </p>
+                <p>
+                  <label>Your Email: <input type="email" name="email" /></label>
+                </p>
+                <p>
+                  <label>Your Role: <select name="role[]" multiple>
+                    <option value="leader">Leader</option>
+                    <option value="follower">Follower</option>
+                  </select></label>
+                </p>
+                <p>
+                  <label>Message: <textarea name="message"></textarea></label>
+                </p>
+                <p>
+                  <button type="submit">Send</button>
+                </p>
+              </form>
+        </div>
     </footer>  
 
     <!-- Pop Up Window -->

@@ -29,7 +29,7 @@ Usage:
             'reverse': false,
             'touchevents': false,
             'delayaftershow': 300,
-            'stepbystep': true,
+            'stepbystep': false,
             'loop': true,
             'startslide': 0,
             'distancetochange': 10,

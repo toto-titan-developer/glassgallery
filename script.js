@@ -7,11 +7,9 @@ const database = [
         type: "Candle Holder",
         mainImg: "./images/glass/GlassLantern1.png",
         subImgs: [
-            "./images/glass/GlassLantern1_grn.png",
-            "./images/glass/GlassLantern1_grn.png",
-            "./images/glass/GlassLantern1_grn.png",
-            "./images/glass/GlassLantern1_grn.png",
-            "./images/glass/GlassLantern1_grn.png",
+            "./images/glass/GlassLantern1_A.png",
+            "./images/glass/GlassLantern1_B.png",
+            "./images/glass/GlassLantern1_C.png",
         ],
 
     },
@@ -20,8 +18,8 @@ const database = [
         type: "Candle Holder",
         mainImg: "./images/glass/GlassLantern2.png",
         subImgs: [
-            "./images/glass/GlassLantern2_red.png",
-            "./images/glass/GlassLantern2_red.png"
+            "./images/glass/GlassLantern2_A.png",
+            "./images/glass/GlassLantern2_B.png"
 
         ],
 
@@ -31,8 +29,9 @@ const database = [
         type: "Candle Holder",
         mainImg: "./images/glass/GlassLantern3_cube.png",
         subImgs: [
-            "./images/glass/GlassLantern2_red.png",
-            "./images/glass/GlassLantern2_red.png"
+            "./images/glass/GlassLantern3_cube_A.png",
+            "./images/glass/GlassLantern3_cube_B.png",
+            "./images/glass/GlassLantern3_cube_C.png"
         ],
 
     },
@@ -41,8 +40,13 @@ const database = [
         type: "Center Piece",
         mainImg: "./images/glass/CenterPieceCandle.png",
         subImgs: [
-            "./images/glass/GlassLantern2_red.png",
-            "./images/glass/GlassLantern2_red.png"
+            "./images/glass/CenterPieceCandle_A.png",
+            "./images/glass/CenterPieceCandle_B.png",
+            "./images/glass/CenterPieceCandle_C.png",
+            "./images/glass/CenterPieceCandle_D.png",
+            "./images/glass/CenterPieceCandle_E.png",
+            "./images/glass/CenterPieceCandle_F.png",
+            "./images/glass/CenterPieceCandle_G.png",
         ],
 
     },
@@ -51,8 +55,11 @@ const database = [
         type: "Center Piece",
         mainImg: "./images/glass/CenterPieceCandle2.png",
         subImgs: [
-            "./images/glass/GlassLantern2_red.png",
-            "./images/glass/GlassLantern2_red.png"
+            "./images/glass/CenterPieceCandle2_A.png",
+            "./images/glass/CenterPieceCandle2_B.png",
+            "./images/glass/CenterPieceCandle2_C.png",
+            "./images/glass/CenterPieceCandle2_D.png",
+            "./images/glass/CenterPieceCandle2_E.png"
         ],
 
     },
@@ -61,8 +68,10 @@ const database = [
         type: "Center Piece",
         mainImg: "./images/glass/CenterPieceCandle3.png",
         subImgs: [
-            "./images/glass/GlassLantern2_red.png",
-            "./images/glass/GlassLantern2_red.png"
+            "./images/glass/CenterPieceCandle3_A.png",
+            "./images/glass/CenterPieceCandle3_B.png",
+            "./images/glass/CenterPieceCandle3_C.png",
+            "./images/glass/CenterPieceCandle3_D.png",
         ],
 
     },
@@ -71,8 +80,9 @@ const database = [
         type: "Center Piece",
         mainImg: "./images/glass/CenterPieceCandle4.png",
         subImgs: [
-            "./images/glass/GlassLantern2_red.png",
-            "./images/glass/GlassLantern2_red.png"
+            "./images/glass/CenterPieceCandle4_A.png",
+            "./images/glass/CenterPieceCandle4_B.png",
+            "./images/glass/CenterPieceCandle4_C.png",
         ],
 
     },
@@ -81,8 +91,9 @@ const database = [
         type: "Center Piece",
         mainImg: "./images/glass/CenterPieceCandle5.png",
         subImgs: [
-            "./images/glass/GlassLantern2_red.png",
-            "./images/glass/GlassLantern2_red.png"
+            "./images/glass/CenterPieceCandle5_A.png",
+            "./images/glass/CenterPieceCandle5_B.png",
+            "./images/glass/CenterPieceCandle5_C.png",
         ],
 
     },
@@ -91,8 +102,10 @@ const database = [
         type: "Jewlery Box",
         mainImg: "./images/glass/JewleryBox1.png",
         subImgs: [
-            "./images/glass/GlassLantern2_red.png",
-            "./images/glass/GlassLantern2_red.png"
+            "./images/glass/JewleryBox1_B.png",
+            "./images/glass/JewleryBox1_A.png",
+            "./images/glass/JewleryBox1_C.png",
+            "./images/glass/JewleryBox1_D.png",
         ],
 
     },
@@ -101,8 +114,9 @@ const database = [
         type: "Jewlery Box",
         mainImg: "./images/glass/JewleryBox2.png",
         subImgs: [
-            "./images/glass/GlassLantern2_red.png",
-            "./images/glass/GlassLantern2_red.png"
+            "./images/glass/JewleryBox2_A.png",
+            "./images/glass/JewleryBox2_B.png",
+            "./images/glass/JewleryBox2_C.png",
         ],
 
     },
@@ -111,8 +125,10 @@ const database = [
         type: "Jewlery Box",
         mainImg: "./images/glass/JewleryBox3.png",
         subImgs: [
-            "./images/glass/GlassLantern2_red.png",
-            "./images/glass/GlassLantern2_red.png"
+            "./images/glass/JewleryBox3_A.png",
+            "./images/glass/JewleryBox3_B.png",
+            "./images/glass/JewleryBox3_C.png",
+            "./images/glass/JewleryBox3_D.png",
         ],
 
     },
@@ -121,8 +137,11 @@ const database = [
         type: "Jewlery Box",
         mainImg: "./images/glass/JewleryBox4.png",
         subImgs: [
-            "./images/glass/GlassLantern2_red.png",
-            "./images/glass/GlassLantern2_red.png"
+            "./images/glass/JewleryBox4_A.png",
+            "./images/glass/JewleryBox4_B.png",
+            "./images/glass/JewleryBox4_C.png",
+            "./images/glass/JewleryBox4_D.png",
+            "./images/glass/JewleryBox4_E.png",
         ],
 
     },
@@ -131,8 +150,11 @@ const database = [
         type: "Suncatcher",
         mainImg: "./images/glass/Suncatcher1.png",
         subImgs: [
-            "./images/glass/GlassLantern2_red.png",
-            "./images/glass/GlassLantern2_red.png"
+            "./images/glass/Suncatcher1_A.png",
+            "./images/glass/Suncatcher1_B.png",
+            "./images/glass/Suncatcher1_C.png",
+            "./images/glass/Suncatcher1_D.png"
+            
         ],
 
     },
@@ -141,8 +163,10 @@ const database = [
         type: "Suncatcher",
         mainImg: "./images/glass/Suncatcher2.png",
         subImgs: [
-            "./images/glass/GlassLantern2_red.png",
-            "./images/glass/GlassLantern2_red.png"
+            "./images/glass/Suncatcher2_A.png",
+            "./images/glass/Suncatcher2_B.png",
+            "./images/glass/Suncatcher2_C.png",
+            "./images/glass/Suncatcher2_D.png",
         ],
 
     },
@@ -151,8 +175,8 @@ const database = [
         type: "Suncatcher",
         mainImg: "./images/glass/Suncatcher3.png",
         subImgs: [
-            "./images/glass/GlassLantern2_red.png",
-            "./images/glass/GlassLantern2_red.png"
+            "./images/glass/Suncatcher3_A.png",
+            "./images/glass/Suncatcher3_B.png",
         ],
 
     },
@@ -161,8 +185,10 @@ const database = [
         type: "Suncatcher",
         mainImg: "./images/glass/Suncatcher4.png",
         subImgs: [
-            "./images/glass/GlassLantern2_red.png",
-            "./images/glass/GlassLantern2_red.png"
+            "./images/glass/Suncatcher4_A.png",
+            "./images/glass/Suncatcher4_B.png",
+            "./images/glass/Suncatcher4_C.png",
+            "./images/glass/Suncatcher4_D.png",
         ],
 
     },
@@ -195,8 +221,8 @@ for (let i = 0; i < database.length; i++){
 // Opening Pop Up Window
 document.querySelectorAll(".glass_object").forEach((obj) => {
     obj.addEventListener("click", () => {
-        console.log("Name :", obj.childNodes[3].children[0].innerHTML);
-        console.log("Type :", obj.childNodes[3].children[1].innerHTML);
+        // console.log("Name :", obj.childNodes[3].children[0].innerHTML);
+        // console.log("Type :", obj.childNodes[3].children[1].innerHTML);
         let dataObject = null;
         for(let i = 0; i < database.length; i++){
             if(obj.childNodes[3].children[0].innerHTML === database[i].name){
@@ -207,7 +233,7 @@ document.querySelectorAll(".glass_object").forEach((obj) => {
         }
         let images = dataObject["subImgs"].map(arr => arr);
         images.unshift(dataObject["mainImg"]);
-        console.log(images);
+        // console.log(images);
         for(let i = 0; i< images.length; i++){
             let newImg = document.createElement("IMG");
             newImg.classList.add("glass_img");
@@ -232,4 +258,25 @@ function ClosePopUp() {
 
 
 // Search Functions
-
+const glassElements = document.querySelectorAll(".glass_object");
+const filter = document.querySelector("#search_filter");
+console.log(glassElements[0].children[1].children[1].innerHTML);
+console.log(filter.options[filter.selectedIndex].value);
+function FilterChange() {
+    let filterVal = filter.options[filter.selectedIndex].value;
+    if (filterVal === "All"){
+        for (let i = 0; i < glassElements.length; i++){
+            glassElements[i].style.display = "block";
+        }
+    }
+    else {
+        for (let i = 0; i < glassElements.length; i++){
+            if(filterVal === glassElements[i].children[1].children[1].innerHTML){
+                glassElements[i].style.display = "block";
+            }
+            else {
+                glassElements[i].style.display = "none";
+            }
+        }
+    }
+}
