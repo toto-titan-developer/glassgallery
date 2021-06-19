@@ -130,6 +130,8 @@ body {
 }
 
 .glass_footer {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
   background-color: rgb(135, 176, 222);
   height: 300px;
 }
@@ -142,6 +144,32 @@ body {
   margin-top: 25px;
   margin-left: 20px;
   box-shadow: 5px 6px 10px 7.5px rgba(75, 75, 75, 0.5);
+}
+
+/* Contact Form */
+.contact_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.contact_form {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 10px 0px;
+  width: 75%;
+}
+.contact_form input,
+.contact_form textarea,
+.contact_form button {
+  box-sizing: border-box;
+  padding: 5px;
+  resize: none;
+  max-width: 350px;
+}
+
+.contact_form textarea {
+  height: 100px;
 }
 
 /* Pop Up Window */

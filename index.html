@@ -52,26 +52,20 @@
     </section>
     <footer class="glass_footer">
         <img class="logo_pic_footer" src="./images/Logo_LC_footer.PNG" alt="Logo Lemur Creations">
-        <div>
-            <form name="contact" method="POST" data-netlify="true">
-                <p>
-                  <label>Your Name: <input type="text" name="name" /></label>   
-                </p>
-                <p>
-                  <label>Your Email: <input type="email" name="email" /></label>
-                </p>
-                <p>
-                  <label>Your Role: <select name="role[]" multiple>
-                    <option value="leader">Leader</option>
-                    <option value="follower">Follower</option>
-                  </select></label>
-                </p>
-                <p>
-                  <label>Message: <textarea name="message"></textarea></label>
-                </p>
-                <p>
-                  <button type="submit">Send</button>
-                </p>
+        <div class="contact_container">
+            <form class="contact_form" name="contact" method="POST" data-netlify-recaptcha="true" data-netlify="true">
+                <label for="name">Your Name: </label>
+                <input id="name" type="text" name="name" placeholder="Your Name" />   
+            
+                <label for="email">Your Email: </label>
+                <input id="email" type="email" name="email" placeholder="Your Email" />
+            
+                <label for="message">Message: </label>
+                <textarea id="message" name="message" placeholder="What is your favourite piece?"></textarea>
+
+                <div data-netlify-recaptcha="true"></div>
+                
+                <button type="submit">Send</button>    
               </form>
         </div>
     </footer>  
