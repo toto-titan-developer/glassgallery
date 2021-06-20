@@ -1,5 +1,6 @@
 * {
   margin: 0;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 body {
   box-sizing: border-box;
@@ -131,7 +132,7 @@ body {
 
 .glass_footer {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 300px auto;
   background-color: rgb(135, 176, 222);
   height: 300px;
 }
@@ -162,14 +163,34 @@ body {
 .contact_form input,
 .contact_form textarea,
 .contact_form button {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   box-sizing: border-box;
+  justify-self: center;
   padding: 5px;
   resize: none;
-  max-width: 350px;
+  width: 70%;
+  max-width: 400px;
+  border: 2px solid black;
+  border-radius: 5px;
+  box-shadow: 5px 6px 10px 7.5px rgba(75, 75, 75, 0.5);
+}
+.contact_form label {
+  font-weight: 800;
+  justify-self: end;
+}
+.contact_form div {
+  box-shadow: 5px 6px 10px 7.5px rgba(75, 75, 75, 0.5);
+  border: 2px solid black;
+  border-radius: 5px;
 }
 
 .contact_form textarea {
   height: 100px;
+}
+.contact_form button {
+  height: 30px;
+  width: 50px;
+  cursor: pointer;
 }
 
 /* Pop Up Window */
