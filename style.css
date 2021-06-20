@@ -178,11 +178,6 @@ body {
   font-weight: 800;
   justify-self: end;
 }
-.g-recaptcha div {
-  box-shadow: 5px 6px 10px 7.5px rgba(75, 75, 75, 0.5);
-  border: 2px solid black;
-  border-radius: 5px;
-}
 
 .contact_form textarea {
   height: 100px;
