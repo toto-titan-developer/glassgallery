@@ -178,6 +178,9 @@ body {
   font-weight: 800;
   justify-self: end;
 }
+.contact_form div {
+  grid-column: 2 / 3;
+}
 
 .contact_form textarea {
   height: 100px;
@@ -187,6 +190,7 @@ body {
   width: 50px;
   cursor: pointer;
   align-self: center;
+  grid-column: 2 / 3;
 }
 
 /* Pop Up Window */
