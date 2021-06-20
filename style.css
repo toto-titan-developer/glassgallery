@@ -134,7 +134,7 @@ body {
   display: grid;
   grid-template-columns: 300px auto;
   background-color: rgb(135, 176, 222);
-  height: 300px;
+  height: 400px;
 }
 .about_footer {
   background-color: rgb(135, 176, 222);
@@ -142,7 +142,7 @@ body {
 }
 .logo_pic_footer {
   height: 250px;
-  margin-top: 25px;
+  margin-top: 75px;
   margin-left: 20px;
   box-shadow: 5px 6px 10px 7.5px rgba(75, 75, 75, 0.5);
 }
