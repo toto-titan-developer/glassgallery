@@ -180,6 +180,7 @@ body {
 }
 .contact_form div {
   grid-column: 2 / 3;
+  justify-self: center;
 }
 
 .contact_form textarea {
