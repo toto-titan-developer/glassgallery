@@ -173,11 +173,13 @@ body {
   border: 2px solid black;
   border-radius: 5px;
   box-shadow: 5px 6px 10px 7.5px rgba(75, 75, 75, 0.5);
+  background-color: white;
 }
 .contact_form .style_recap {
   border: 2px solid black;
   border-radius: 5px;
   box-shadow: 5px 6px 10px 7.5px rgba(75, 75, 75, 0.5);
+  background-color: white;
 }
 .contact_form label {
   font-weight: 800;
