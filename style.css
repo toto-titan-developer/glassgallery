@@ -191,6 +191,7 @@ body {
   height: 30px;
   width: 50px;
   cursor: pointer;
+  align-self: center;
 }
 
 /* Pop Up Window */
