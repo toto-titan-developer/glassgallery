@@ -278,6 +278,13 @@ body {
     grid-template-columns: 300px;
     margin: 0;
   }
+  .about_container {
+    margin: 0;
+    height: auto;
+  }
+  .about_text {
+    width: 95vw;
+  }
   .glass_footer,
   .about_footer {
     grid-template-columns: auto;
@@ -291,6 +298,17 @@ body {
   }
   .contact_container {
     margin: 50px 0;
+    display: block;
+  }
+  .contact_form {
+    grid-template-columns: auto;
+  }
+  .contact_form div,
+  .contact_form button {
+    grid-column: 1/2;
+  }
+  .contact_form label {
+    justify-self: start;
   }
   .side_banner,
   .side_banner_right {
