@@ -43,13 +43,14 @@ body {
   color: black;
   height: 20px;
   width: 125px;
-  /* margin-top: 30px; */
+  margin-top: 10px;
   margin-right: 20px;
   margin-left: 10px;
   padding: 5px;
-  background-color: azure;
-  border: 2px solid grey;
+  background-color: rgb(135, 176, 222);
+  border: 2px solid black;
   border-radius: 5px;
+  box-shadow: 1px 1px 2px 2px rgba(135, 176, 222, 0.5);
   transition: opacity 0.2s;
 }
 .about_tag:hover {
@@ -64,9 +65,12 @@ body {
   border-radius: 50%;
 }
 .logo_pic_head {
-  margin: 0 auto;
+  position: relative;
+  top: 0;
+  right: 0;
   min-height: 75px;
   height: 10vh;
+  z-index: 10000;
 }
 
 .search_container {
@@ -123,11 +127,14 @@ body {
   margin: 0 100px;
   height: 90vh;
   border: 2px solid rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .about_text {
-  margin: 0 auto;
-  padding-top: 25vh;
   width: 50vw;
+  line-height: 30px;
 }
 
 .glass_footer {
@@ -137,9 +144,23 @@ body {
   height: 400px;
 }
 .about_footer {
+  display: grid;
+  grid-template-columns: 300px auto;
   background-color: rgb(135, 176, 222);
-  height: 300px;
+  height: 400px;
 }
+.sendoff_container {
+  padding: 75px 25%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sendoff_container h5 {
+  font-size: 35px;
+}
+
 .logo_pic_footer {
   height: 250px;
   margin-top: 75px;
@@ -243,4 +264,36 @@ body {
 
 .slider .exit_button:hover {
   opacity: 1;
+}
+
+/* Scaling */
+@media only screen and (max-width: 1400px) {
+  .gallery_container {
+    grid-template-columns: 300px 300px;
+  }
+}
+
+@media only screen and (max-width: 915px) {
+  .gallery_container {
+    grid-template-columns: 300px;
+    margin: 0;
+  }
+  .glass_footer,
+  .about_footer {
+    grid-template-columns: auto;
+    height: auto;
+    justify-content: center;
+  }
+  .logo_pic_footer {
+    justify-self: center;
+    margin: 75px 0px 0px;
+    grid-row: 2/3;
+  }
+  .contact_container {
+    margin: 50px 0;
+  }
+  .side_banner,
+  .side_banner_right {
+    display: none;
+  }
 }
