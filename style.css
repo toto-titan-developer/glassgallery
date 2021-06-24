@@ -274,7 +274,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 915px) {
+@media only screen and (max-width: 915px) and (orientation: portrait) {
   body {
     background-image: url("./images/Banner_vrt_X4.png");
     background-repeat: repeat-y;
@@ -321,5 +321,51 @@ body {
   }
   .search_container {
     padding-left: 50px;
+  }
+}
+
+@media only screen and (max-width: 915px) and (orientation: landscape) {
+  body {
+    background-image: url("./images/Banner_vrt_X4.png");
+    background-size: cover;
+    background-repeat: repeat-y;
+  }
+  .gallery_container {
+    grid-template-columns: 300px 300px;
+    margin: 0 50px;
+    height: 200vh;
+  }
+  .about_container {
+    margin: 0 50px;
+    height: auto;
+  }
+  .side_banner,
+  .side_banner_right {
+    width: 50px;
+  }
+  .glass_footer,
+  .about_footer {
+    grid-template-columns: auto;
+    height: auto;
+    justify-content: center;
+  }
+  .logo_pic_footer {
+    justify-self: center;
+    margin: 75px 0px 0px;
+    grid-row: 2/3;
+  }
+  .contact_container {
+    margin: 50px 0;
+    display: block;
+  }
+  .contact_form {
+    grid-template-columns: auto;
+  }
+  .contact_form div,
+  .contact_form button {
+    grid-column: 1/2;
+  }
+  .contact_form label {
+    justify-self: start;
   }
 }
