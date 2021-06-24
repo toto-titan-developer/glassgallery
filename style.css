@@ -369,3 +369,9 @@ body {
     justify-self: start;
   }
 }
+
+@media only screen and (max-width: 800px) and (orientation: landscape) {
+  .gallery_container {
+    grid-template-columns: 300px;
+  }
+}
