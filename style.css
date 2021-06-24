@@ -43,7 +43,7 @@ body {
   text-align: center;
   color: black;
   height: 20px;
-  width: 125px;
+  width: 75px;
   margin-top: 10px;
   margin-right: 20px;
   margin-left: 10px;
@@ -61,12 +61,11 @@ body {
   box-sizing: border-box;
   height: 10vh;
   min-height: 75px;
-  margin: 0 auto;
   width: auto;
   border-radius: 50%;
 }
 .logo_pic_head {
-  position: relative;
+  position: absolute;
   top: 0;
   right: 0;
   min-height: 75px;
@@ -298,7 +297,7 @@ body {
   }
   .logo_pic_footer {
     justify-self: center;
-    margin: 75px 0px 0px;
+    margin: 75px 0px 50px;
     grid-row: 2/3;
   }
   .contact_container {
@@ -307,7 +306,13 @@ body {
   }
   .contact_form {
     grid-template-columns: auto;
+    width: 100%;
   }
+  .contact_form input,
+  .contact_form textarea {
+    width: 100%;
+  }
+
   .contact_form div,
   .contact_form button {
     grid-column: 1/2;
@@ -351,7 +356,7 @@ body {
   }
   .logo_pic_footer {
     justify-self: center;
-    margin: 75px 0px 0px;
+    margin: 75px 0px 50px;
     grid-row: 2/3;
   }
   .contact_container {
@@ -360,6 +365,7 @@ body {
   }
   .contact_form {
     grid-template-columns: auto;
+    width: 100%;
   }
   .contact_form div,
   .contact_form button {
@@ -373,5 +379,11 @@ body {
 @media only screen and (max-width: 800px) and (orientation: landscape) {
   .gallery_container {
     grid-template-columns: 300px;
+  }
+}
+
+@media only screen and (max-width: 424px) {
+  .profile_pic {
+    display: none;
   }
 }
