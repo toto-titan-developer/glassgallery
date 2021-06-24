@@ -280,10 +280,11 @@ body {
   }
   .about_container {
     margin: 0;
-    height: auto;
+    overflow-y: scroll;
   }
   .about_text {
     width: 95vw;
+    padding-top: 750px;
   }
   .glass_footer,
   .about_footer {
@@ -313,5 +314,8 @@ body {
   .side_banner,
   .side_banner_right {
     display: none;
+  }
+  .search_container {
+    padding-left: 50px;
   }
 }
