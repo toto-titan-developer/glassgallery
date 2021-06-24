@@ -571,9 +571,15 @@ div.slider > div:not(.nav_indicators):not(.next_button):not(.prev_button) {
   font-size: 150px;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 850px) {
   .slider_one_big_picture {
     width: 90vw;
     height: 90vw;
   }
-} ;
+}
+@media only screen and (max-width: 850px) and (orientation: landscape) {
+  .slider_one_big_picture {
+    width: 90vh;
+    height: 90vh;
+  }
+}
