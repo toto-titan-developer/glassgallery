@@ -9,6 +9,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  background-color: rgb(158, 158, 158);
 }
 
 .nav_banner {
@@ -274,17 +275,20 @@ body {
 }
 
 @media only screen and (max-width: 915px) {
+  body {
+    background-image: url("./images/Banner_vrt_X4.png");
+    background-repeat: repeat-y;
+  }
   .gallery_container {
     grid-template-columns: 300px;
     margin: 0;
   }
   .about_container {
     margin: 0;
-    overflow-y: scroll;
+    height: auto;
   }
   .about_text {
     width: 95vw;
-    padding-top: 750px;
   }
   .glass_footer,
   .about_footer {
