@@ -36,7 +36,7 @@ const database = [
 
     },
     {
-        name: "Green and Blue Reflector",
+        name: "Reflector",
         type: "Center Piece",
         mainImg: "./images/glass/CenterPieceCandle.png",
         subImgs: [
@@ -87,7 +87,7 @@ const database = [
 
     },
     {
-        name: "Octahedron Candle Holder",
+        name: "Octahedron Holder",
         type: "Center Piece",
         mainImg: "./images/glass/CenterPieceCandle5.png",
         subImgs: [
