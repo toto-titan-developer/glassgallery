@@ -151,6 +151,8 @@ body {
 .about_text {
   width: 50vw;
   line-height: 30px;
+  font-size: 20px;
+  font-weight: 900;
 }
 
 .glass_footer {
