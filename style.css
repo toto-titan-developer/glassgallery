@@ -93,11 +93,13 @@ body {
   height: 5vh;
 }
 .search_container label {
+  display: inline;
   font-weight: 900;
   color: white;
 }
 
 .search_filter {
+  display: inline;
   height: 25px;
   border: 2px solid grey;
   border-radius: 5px;
