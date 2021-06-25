@@ -1,9 +1,16 @@
+/* 
+font-family: 'Gamja Flower', cursive;
+font-family: 'Kirang Haerang', cursive;
+*/
+
 * {
   margin: 0;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: "Gamja Flower", cursive;
+  font-weight: 700;
 }
 body {
   box-sizing: border-box;
+  font-size: 17.5px;
   height: 100vh;
   background-image: url("./images/Banner_hrz2.jpg");
   background-size: cover;
@@ -37,6 +44,9 @@ body {
   z-index: 5;
 }
 .about_tag {
+  font-family: "Kirang Haerang", cursive;
+  font-weight: 900;
+  font-size: 25px;
   display: block;
   z-index: 5000;
   text-decoration: none;
@@ -110,7 +120,7 @@ body {
   box-sizing: border-box;
   border: 5px solid black;
   transition: border-color 1s;
-  height: 354px;
+  height: 374px;
 }
 .glass_object:hover {
   border-color: rgba(240, 248, 255, 0.5);
@@ -120,6 +130,11 @@ body {
   padding: 5px;
   background-color: black;
   color: aliceblue;
+}
+.glass_title {
+  font-family: "Kirang Haerang", cursive;
+  font-weight: 700;
+  font-size: 25px;
 }
 .about_container {
   box-sizing: border-box;
@@ -205,6 +220,7 @@ body {
 }
 .contact_form label {
   font-weight: 800;
+  font-size: 25px;
   justify-self: end;
 }
 .contact_form div {
@@ -245,11 +261,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  left: 0%;
-  top: 0%;
-  margin: -15px 0 0 -25px;
-  width: 50px;
-  height: 50px;
+  right: 0;
+  top: 0;
+  width: 40px;
+  height: 40px;
   border: 1px solid #000;
   background-color: #fff;
   opacity: 0.5;
@@ -257,7 +272,6 @@ body {
   cursor: pointer;
   text-align: center;
   line-height: 30px;
-  border-radius: 50%;
   font-size: 25px !important;
   font-weight: 900 !important;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
