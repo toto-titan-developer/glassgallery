@@ -12,10 +12,10 @@ body {
   box-sizing: border-box;
   font-size: 17.5px;
   height: 100vh;
-  background-image: url("./images/Banner_hrz2.jpg");
+  /* background-image: url("./images/Banner_hrz2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center; */
   background-color: rgb(158, 158, 158);
 }
 
@@ -30,7 +30,8 @@ body {
   position: absolute;
   background-color: rgb(59, 59, 59);
   top: 10vh;
-  height: 90vh;
+  max-height: 90vh;
+  height: 100%;
   width: 100px;
   z-index: 5;
 }
@@ -39,7 +40,8 @@ body {
   background-color: rgb(59, 59, 59);
   top: 10vh;
   right: 0;
-  height: 90vh;
+  max-height: 90vh;
+  height: 100%;
   width: 100px;
   z-index: 5;
 }
@@ -114,10 +116,8 @@ body {
   background-color: rgba(158, 158, 158, 0.9);
   gap: 10vh 10vw;
   justify-content: center;
-  overflow-y: scroll;
-  margin: 0 100px;
-  height: 85vh;
-  border: 2px solid rgb(124, 124, 124);
+  margin: 100px 0;
+  height: auto;
 }
 .glass_object {
   box-sizing: border-box;
@@ -144,7 +144,8 @@ body {
   text-align: center;
   background-color: rgba(245, 245, 245, 0.9);
   margin: 0 100px;
-  height: 90vh;
+  min-height: 90vh;
+  height: auto;
   border: 2px solid rgb(255, 255, 255);
   display: flex;
   flex-direction: column;
@@ -185,7 +186,7 @@ body {
 .logo_pic_footer {
   height: 250px;
   margin-top: 75px;
-  margin-left: 20px;
+  margin-left: 120px;
   box-shadow: 5px 6px 10px 7.5px rgba(75, 75, 75, 0.5);
 }
 
@@ -294,13 +295,8 @@ body {
 }
 
 @media only screen and (max-width: 915px) and (orientation: portrait) {
-  body {
-    background-image: url("./images/Banner_vrt_X4.png");
-    background-repeat: repeat-y;
-  }
   .gallery_container {
     grid-template-columns: 300px;
-    margin: 0;
   }
   .about_container {
     margin: 0;
@@ -350,15 +346,8 @@ body {
 }
 
 @media only screen and (max-width: 915px) and (orientation: landscape) {
-  body {
-    background-image: url("./images/Banner_vrt_X4.png");
-    background-size: cover;
-    background-repeat: repeat-y;
-  }
   .gallery_container {
     grid-template-columns: 300px 300px;
-    margin: 0 50px;
-    height: 200vh;
   }
   .about_container {
     margin: 0 50px;
